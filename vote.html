@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="main-container" id="mainc">
+<h1 class="text-center">Virtual Voting</h1>
+
+        <div class="cont">
+
+            <div class="p">
+                <img src="images/bjp.png" alt="" />
+                <button id="b1" onclick="countb1()">VOTE BJP</button>
+
+            </div>
+
+            <div class="p">
+                <img src="images/aap.png" alt="" />
+                <button id="b2" onclick="countb2()">VOTE AAP</button>
+            </div>
+
+            <div class="p">
+                <img src="images/congress.png" alt="" />
+                <button id="b3" onclick="countb3()">VOTE CONGRESS</button>
+            </div>
+
+        </div>
+
+       <div class="btns">
+        <button onclick="newf()" id="btnvoter">New VOTER</button>
+        <button onclick="login()" id="btnres">See Result</button>
+       </div>
+
+    </div>
+
+    <div id="login">
+ <h3>Login Here For Results</h3><br>
+        User name: <br><br><input type="text" id="uname"><br><br>
+
+        Password: <br><br><input type="password" name="" id="pass"><br>
+
+       <br> <button id="btn" onclick="showresult()">Login</button>
+
+    </div>
+
+    <div id="restable">
+
+        <table>
+            <thead>
+                <th>Sr.No</th>
+                <th>Party</th>
+                <th>votes</th>
+            </thead>
+
+            <tr class="bjp_row">
+                <td>1.</td>
+                <td>BJP</td>
+                <td id="bjp_v"></td>
+            </tr>
+            <tr class="aap_row">
+                <td>2.</td>
+                <td>AAP</td>
+                <td id="aap_v"></td>
+            </tr>
+            <tr class="cong_row">
+                <td>3.</td>
+                <td>CONGRESS</td>
+                <td id="cong_v"></td>
+            </tr>
+
+
+
+
+        </table>
+        <button id="goback" onclick="goback()">Go Back</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

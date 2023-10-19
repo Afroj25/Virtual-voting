@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+
+    background-color: rgb(30, 6, 46);
+    color: aliceblue;
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 25px;
+  }
+
+.main-container {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .cont {
+    width: 90%;
+    margin: 24px auto auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .p {
+    width: 23%;
+    box-shadow: 0 0 12px 1px rgba(0, 0, 00, 0.1);
+    background-color: white;
+    margin: 2px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-gap: 1rem;
+    padding: 40px 24px;
+    /* height: 500px; */
+  }
+   th, td {
+    border: 1px solid;
+  }
+  table {
+    width: 100%;
+  }
+  
+  table{
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    font-size: 30px;
+    text-align: center;
+  }
+  .p img {
+    height: 50%;
+  }
+
+  .p button,
+  .btn {
+    background-color:rgb(213, 155, 217);
+    color: white;
+    border: none;
+    outline: none;
+    padding: 12px 23px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: 0.2s all ease-in-out;
+    cursor: pointer;
+  }
+
+  .p button:hover {
+    background-color: rgb(136, 35, 159);
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 00.1);
+  }
+
+  #res{
+    
+        width: 20%;
+        font-size: 20px;
+        /* height: 100px; */
+        margin: 24px auto auto auto;
+        display: flex;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+
+        
+      }
+      .btns{
+        margin-left: 480px;
+        margin-top: 40px;
+        
+      }
+
+   #btnvoter,
+   #btnres,
+   #btn,
+   #goback{
+      padding: 15px;
+      border-radius: 5px;
+      outline: none;
+      background: rgb(110, 54, 108);
+      color: rgb(242, 235, 243);
+      
+    }
+  #btnseeresult{
+
+    padding: 7px;
+    position: absolute;
+    top: 60%;
+    left: 52%;
+    transform: translate(-50% ,-50%);
+  }
+
+  #btnvoter,#btnseeresult:hover{
+   cursor: pointer;
+
+  }
+  #login{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 100px 400px;
+    height: 8cm;
+    padding: 30px;
+    font-size: large;
+    text-align: center;
+    border-style: solid;
+     justify-content: space-evenly;
+     text-align: center;
+  }
+  #goback{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    font-size: 16px;
+    width: 100px;
+    border-radius: 7px;
+  
+  }
